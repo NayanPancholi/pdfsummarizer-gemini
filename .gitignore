@@ -1,0 +1,27 @@
+# Secrets and local configuration
+.env
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Data and generated output
+data/
+output/
+summaries/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
